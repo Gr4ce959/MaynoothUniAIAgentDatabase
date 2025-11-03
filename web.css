@@ -1,0 +1,50 @@
+/* Reset default broswer styles*/
+body, h1, h2, p, ul, li [
+margin: 0;
+padding: 0;
+]
+/* Apply basic styles*/
+body {
+font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+background-color: #000000;
+color: #135;
+  line-height: 1.6;
+}
+
+border {
+background-color: #533;
+padding: 20px;
+}
+
+h1 {
+color: #fff;
+font-size: 18px;
+margin-bottom: 10px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+h2 {
+  font-size: 15px;
+  color: #34495e;
+  margin: 15px 0;
+}
+
+p {
+  font-size: 12px;
+  margin: 10px 0;
+  color: #555;
+}
+
+ul {
+  list-style-type: disc;
+  margin: 20px;
+  padding-left: 40px;
+}
+
+li {
+  margin: 5px 0;
+  font-size: 12px;
+}
